@@ -47,13 +47,13 @@ def preorder_traversal_iterative(root: Tree_Node) -> List[int]:
         res.append(node.val)
 
 
-root = Tree_Node(4)
-root.left = Tree_Node(3)
-root.right = Tree_Node(5)
-node = root.left
-node.left = Tree_Node(1)
-node.right = Tree_Node(2)
+# root = Tree_Node(4)
+# root.left = Tree_Node(3)
+# root.right = Tree_Node(5)
+# node = root.left
+# node.left = Tree_Node(1)
+# node.right = Tree_Node(2)
 
-print("inorder: ", inorder_traversal(root))
-print("inorder(iterative)", inorder_traversal_iterative(root))
-print("preorder: ", preorder_traversal(root))
+# print("inorder: ", inorder_traversal(root))
+# print("inorder(iterative)", inorder_traversal_iterative(root))
+# print("preorder: ", preorder_traversal(root))
