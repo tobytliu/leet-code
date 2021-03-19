@@ -1,3 +1,2 @@
-foo = [3, 1, 73, 23, 4, 55]
-foo.sort()
+foo = [[0 for _ in range(4)] for _ in range(3)]
 print(foo)
