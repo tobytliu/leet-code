@@ -1,2 +1,6 @@
-foo = [[0 for _ in range(4)] for _ in range(3)]
-print(foo)
+from collections import Counter
+s = "aabc"
+c = Counter(s)
+print(c)
+c['z'] = 323
+print(c)
